@@ -30,8 +30,6 @@ jobs:
         python -m pip install .[test]
 
         # pytest -vv -r ap --cov jupyterlab_close_all_tabs_extension
-        jupyter server extension list
-        jupyter server extension list 2>&1 | grep -ie "jupyterlab_close_all_tabs_extension.*OK"
 
         jupyter labextension list
         jupyter labextension list 2>&1 | grep -ie "jupyterlab_close_all_tabs_extension.*OK"
@@ -73,10 +71,6 @@ jobs:
         sudo rm -rf $(which node)
 
         pip install "jupyterlab>=4.0.0,<5" jupyterlab_close_all_tabs_extension*.whl
-
-
-        jupyter server extension list
-        jupyter server extension list 2>&1 | grep -ie "jupyterlab_close_all_tabs_extension.*OK"
 
         jupyter labextension list
         jupyter labextension list 2>&1 | grep -ie "jupyterlab_close_all_tabs_extension.*OK"
