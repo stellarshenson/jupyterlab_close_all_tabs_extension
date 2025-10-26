@@ -1,6 +1,6 @@
 {
     "name": "jupyterlab_close_all_tabs_extension",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Small extension to add menu item under 'Tabs' to allow close all open tabs",
     "keywords": [
         "jupyter",
