@@ -1,6 +1,8 @@
 # jupyterlab_close_all_tabs_extension
 
-[![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml)
+![GitHub Actions](https://github.com/stellarshenson/jupyterlab_close_all_tabs_extension/actions/workflows/build.yml/badge.svg)
+[![npm version](https://badge.fury.io/js/jupyterlab_close_all_tabs_extension.svg)](https://www.npmjs.com/package/jupyterlab_close_all_tabs_extension)
+[![PyPI version](https://badge.fury.io/py/jupyterlab-close-all-tabs-extension.svg)](https://pypi.org/project/jupyterlab-close-all-tabs-extension/)
 
 Small extension to add menu item under 'Tabs' to allow close all open tabs
 
