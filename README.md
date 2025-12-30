@@ -6,6 +6,9 @@
 [![Total PyPI downloads](https://static.pepy.tech/badge/jupyterlab-close-all-tabs-extension)](https://pepy.tech/project/jupyterlab-close-all-tabs-extension)
 ![JL4 Ready](https://img.shields.io/badge/Jupyterlab%204-ready-blue)
 
+> [!WARNING]
+> **Deprecated**: This extension is no longer needed as JupyterLab 4.5+ includes this feature natively. Consider upgrading JupyterLab instead of installing this extension.
+
 Small extension to add menu item under 'Tabs' to allow close all open tabs
 
 ## Requirements
